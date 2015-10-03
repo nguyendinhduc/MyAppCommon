@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_nav_notifications"
+            android:title="Notifications"
+            />
+        <item
+            android:id="@+id/call_log"
+            android:icon="@drawable/ic_nav_call_logs"
+            android:title="Call log"
+            />
+
+    </group>
+    <item android:title="Sub items">
+        <menu>
+            <item
+                android:icon="@drawable/ic_nav_login"
+                android:title="Log out" />
+            <item
+                android:icon="@drawable/ic_nav_log_out"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>
